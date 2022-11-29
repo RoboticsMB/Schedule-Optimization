@@ -15,7 +15,7 @@ ThatClass <- aggregate(list(numdup=rep(1,nrow(ThatClass))), ThatClass, length)
 #finds class with least amount of people
 ClassFound <- ThatClass[which.min(ThatClass$numdup),]
 
-
+#making comment to check github
 
 STUDENT_REQUEST_INFO <- subset(ClassFound, select = -c(numdup) )
 #print(STUDENT_REQUEST_INFO)

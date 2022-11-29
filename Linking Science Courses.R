@@ -15,3 +15,5 @@ print(unique(ThatClass))
 
 #if choice doesn't equal MTWRF and its not first check if above option has same teacher, course and it is MTWRF
 #if not then check option below, if it is not throw an error
+
+#making comment to check github

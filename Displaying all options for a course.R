@@ -11,3 +11,4 @@ ThatClass <- filter(Courses, dfCopy.CY.Description == 'CHEMISTRY')
 ThatClass = aggregate(list(NumberOfPeople=rep(1,nrow(ThatClass))), ThatClass, length)
 print(ThatClass)
 
+#making comment to check github
